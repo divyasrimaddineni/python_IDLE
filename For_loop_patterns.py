@@ -1,4 +1,4 @@
-#For loop patterns:
+5#For loop patterns:
 
 #1.Floyd's triangle:
 
@@ -206,6 +206,11 @@ for i in range(9,0,-1):
 12
 1
 '''
+#solution:
+for i in range(9,0,-1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()
 
 #11.
 '''
@@ -219,6 +224,11 @@ for i in range(9,0,-1):
 98
 9
 '''
+#solution:
+for i in range(9,0,-1):
+    for j in range(9,9-i,-1):
+        print(j,end="")
+    print()
 
 #12.
 '''
@@ -232,10 +242,16 @@ GGG
 HH
 I
 '''
+#solution:
+for i in range(1,10):
+    for j in range(1,10-i):
+        print(chr(i+64),end="")
+    print()
 
 #13.
 '''
 ABCDEFGHI
+ABCDEFGH
 ABCDEFG
 ABCDEF
 ABCDE
@@ -244,6 +260,11 @@ ABC
 AB
 A
 '''
+#solution:
+for i in range(1,11):
+    for j in range(1,11-i):
+        print(chr(j+64),end="")
+    print()
 
 #14.
 '''
@@ -253,6 +274,12 @@ A
    22
     1
     '''
+#solution:
+n=2
+for i in range(5,0,-1):
+    for j in range(5,0):
+        print(,end="")
+    print()
 
 #15.
 '''
